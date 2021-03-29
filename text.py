@@ -13,7 +13,7 @@ def revword(word:str):
 
 def countword():
     count=0
-    hendle=open(r'C:\Users\odiel\Desktop\limudim\python\matala2\text.txt')
+    hendle=open('text.txt')
     line=0
     for x in hendle:
         x=x.rstrip()
@@ -27,3 +27,4 @@ def countword():
                     count=count+1
         line=line+1            
     return count 
+
